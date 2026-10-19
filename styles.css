@@ -83,3 +83,20 @@ code { padding: 2px 5px; border-radius: 4px; background: #eaeae5; font-size: .9e
   .footer { gap: 18px; flex-wrap: wrap; }
   .footer p { order: 3; width: 100%; }
 }
+
+.discord-button {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 12px 22px;
+  background: #5865F2;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 8px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.discord-button:hover {
+  background: #4752C4;
+  transform: translateY(-2px);
+}
